@@ -33,7 +33,7 @@ def create_payment_link(chat_id, amount):
             {
                 "amount": {"currency_code": "EUR", "value": str(amount)},
                 "custom_id": str(chat_id),
-                "notify_url": "https://67f6d3471e1e1546c937.appwrite.global/v1/functions/67f6d345003e6da67d40/executions"
+                "notify_url": "https://67fcff11b5e9f555208b.appwrite.global/v1/functions/67fcff9b04f0267e51e0/executions"
             }
         ],
         "application_context": {
